@@ -1,8 +1,6 @@
 import { useEffect } from 'react';
 import { useCalibration } from '../store/CalibrationContext';
 
-const FOCUS_ORDER = ['mode-toggle', 'calibration-pad', 'grayscale-selector', 'btn-reset', 'btn-apply', 'btn-back'];
-
 export const useTVFocus = () => {
   const { 
     focusedElement, setFocusedElement, 

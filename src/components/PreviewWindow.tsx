@@ -1,12 +1,15 @@
 import { useCalibration } from '../store/CalibrationContext';
 import { clsx } from 'clsx';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useEffect, useState } from 'react';
+
+import img1 from '../assets/img1.jpg';
+import img2 from '../assets/img2.jpg';
+import img3 from '../assets/img3.jpg';
 
 const IMAGES = [
-  '/img1.jpg', // Local fallback 1 (Forest)
-  '/img2.jpg', // Local fallback 2 (Ocean)
-  '/img3.jpg', // Local fallback 3 (Mountain)
+  img1, // Local fallback 1 (Forest)
+  img2, // Local fallback 2 (Ocean)
+  img3, // Local fallback 3 (Mountain)
 ];
 
 export const PreviewWindow = () => {

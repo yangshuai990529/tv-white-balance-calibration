@@ -1,7 +1,6 @@
 import { Header } from './components/Header';
 import { PreviewWindow } from './components/PreviewWindow';
 import { CalibrationPad } from './components/CalibrationPad';
-import { IntelligentPanel } from './components/IntelligentPanel';
 import { BottomActionButtons } from './components/BottomActionButtons';
 import { useTVFocus } from './hooks/useTVFocus';
 import { useEffect, useState } from 'react';
